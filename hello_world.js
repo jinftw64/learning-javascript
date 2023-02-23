@@ -1,3 +1,1 @@
-let message = "Hello world"
-
-console.log(message)
+console.log(23 + 97);
