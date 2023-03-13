@@ -7,12 +7,15 @@
 <body>
   <script>
     // Your JavaScript goes here!
-    let message = prompt("What's the official name of Javascript?");
+    n = prompt('Enter a number', 2);
+    squareRoot = Math.floor(Math.sqrt(n));
 
-    if (message === "ECMAScript") {
-      alert("Right!");
-    } else {
-      alert("You don't know? ECMAScript!");
+    nextPrime:
+    for (let i = 2; i <= n; i++) {
+      for (let j = 2; j < (squareRoot + 1); j++) {
+        if (i % j == 0 && i != j) continue nextPrime;
+      }
+      console.log(i);
     }
   </script>
 </body>

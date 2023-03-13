@@ -1,7 +1,5 @@
-let message = prompt("What's the official name of Javascript?");
-
-if (message = "ECMAScript") {
-  console.log("Right!");
-} else {
-  console.log("You don't know? ECMAScript!");
+let i = 0;
+while (i < 3) {
+  console.log(`number ${i}! `);
+  i++;
 }
